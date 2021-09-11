@@ -1,23 +1,12 @@
-import Weather from "./Weather";
+import SearchEngine from "./SearchEngine";
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>DeBugging</h1>
-        <Weather city="merced" />
-        <a
-          href="https://www.shecodes.io/learn/workshops"
-          target="_blank"
-          rel="noreferrer"
-        >
-          shecodes
-        </a>
-        <img src="test.png" alt="hello" />
-      </header>
+    <div className="SearchEngine">
+      <h1>Weather App</h1>
+      <SearchEngine />
     </div>
   );
 }
-
 export default App;
