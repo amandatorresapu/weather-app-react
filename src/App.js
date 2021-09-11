@@ -1,22 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Weather from "./Weather";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <h1>DeBugging</h1>
+        <Weather city="merced" />
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          href="https://www.shecodes.io/learn/workshops"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
-          Learn React
+          shecodes
         </a>
+        <img src="test.png" alt="hello" />
       </header>
     </div>
   );
