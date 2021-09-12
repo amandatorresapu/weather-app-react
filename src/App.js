@@ -5,6 +5,8 @@ import "./App.css";
 function App() {
   return (
     <div className="SearchEngine">
+      <Loader type="BallTriangle" color="#00BFFF" height={80} width={80} />
+
       <h1>Weather App</h1>
       <SearchEngine />
       <p>
@@ -13,13 +15,6 @@ function App() {
         </a>{" "}
         by Amanda Torres-Brooks
       </p>
-      <Loader
-        type="Puff"
-        color="#00BFFF"
-        height={100}
-        width={100}
-        timeout={10000} //3 secs
-      />
     </div>
   );
 }
