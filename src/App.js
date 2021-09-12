@@ -1,4 +1,5 @@
 import SearchEngine from "./SearchEngine";
+import Loader from "react-loader-spinner";
 import "./App.css";
 
 function App() {
@@ -12,6 +13,13 @@ function App() {
         </a>{" "}
         by Amanda Torres-Brooks
       </p>
+      <Loader
+        type="Puff"
+        color="#00BFFF"
+        height={100}
+        width={100}
+        timeout={3000} //3 secs
+      />
     </div>
   );
 }
