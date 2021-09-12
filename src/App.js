@@ -13,7 +13,10 @@ function App() {
         <a href="https://github.com/amandatorresapu/weather-app-react">
           Open source
         </a>{" "}
-        by Amanda Torres-Brooks
+        by Amanda Torres-Brooks and hosted on{" "}
+        <a href="https://app.netlify.com/sites/determined-visvesvaraya-ff9cc1/overview">
+          Netlify
+        </a>{" "}
       </p>
     </div>
   );
